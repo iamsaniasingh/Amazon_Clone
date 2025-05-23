@@ -1,0 +1,45 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.forfun{
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+    transition-duration: 0.3s;
+   
+}
+.forfun:hover{
+    background-color: aqua;
+    color: aliceblue;
+}
+
+.fun{
+    color: green;
+}
+.stylebutton{
+    background-color: red;
+    cursor: pointer;
+    text-decoration: solid;
+    font-size: 12px;
+    padding: 10px 24px;
+    border: 2px solid #04AA6D;
+    transition-duration: 0.4s; 
+}
+.stylebutton:hover{
+    background-color: aqua;
+    color: wheat;
+}
+.flex-container > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: DodgerBlue;
+  }
